@@ -1,0 +1,164 @@
+.LoginMain{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* background-color: aqua */
+}
+.LoginMain .LoginLeft{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: red; */
+}
+.Logo{
+    width: 20%;
+    height: 20%;
+    /* background-color: antiquewhite; */
+    overflow: hidden;
+}
+.Logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.LogoContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: 150px;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+.LogoContent h1{
+    font-size: 3vw;
+    letter-spacing: 5px;
+    color: #002C5D;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.LogoContent p{
+    padding-right: 20px;
+    width: 72%;
+    font-size: 1vw;
+    color: #002C5D;
+}
+.LoginMain .LoginRight{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    /* background-color: red; */
+}
+.Logincontainer{
+    width: 65%;
+    height: 70%;
+    border-radius: 25px;
+    background-color: #ffff;
+    box-shadow: 1px 8px 15px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+}
+.Logincontainer .header{
+    padding-top: 5.5vw;
+    width: 100%;
+    /* background-color: #002C5D; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.Logincontainer .header h1{
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+    color: #4169E1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.Logincontainer .inputContain{
+    width: 100%;
+    margin-top: 2vw;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 2vw;
+}
+.inputContain #inpt{
+    background-color: #F2F5FF;
+    width: 80%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 2vw;
+    font-size: 1vw;
+}
+.inputContain a{
+    position: relative;
+    right: 29%;
+    bottom: 0%;
+    text-decoration: none;
+    color: #4169E1;
+}
+.btn{
+    position: relative;
+    bottom: 12%;
+    width: 35%;
+    /* height: 20px; */
+    /* background-color: #4169E1; */
+}
+.btn button{
+    width: 100%;
+    background-color: #00AFF6;
+    font-weight: 600;
+    border: none;
+    padding: 1vw;
+    border-radius: 20px;
+    font-size: 2vw;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.btn button:hover{
+    box-shadow: 1px 8px 15px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.SocialLinks{
+    position: relative;
+    bottom: 5%;
+    width: 50%;
+    height: 100px;
+    /* background-color: #00AFF6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: px;
+}
+.SocialLinks a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    /* background-color: #002C5D; */
+    text-decoration: none;
+}
+.SocialLinks a img{
+    width: 50%;
+}
+.signUptxt{
+    position: relative;
+    bottom: 2%;
+    font-size: 1vw;
+}
+.signUptxt a{
+    text-decoration: none;
+    color: #4169E1;
+}
